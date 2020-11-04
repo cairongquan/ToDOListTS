@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1965321_d543ru6di7.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<style>
+    *{
+        padding: none;
+        margin: 0;
+    }
+</style>
+
+<body>
+    <header>
+        <section>
+                <label for="title">ToDoList</label>
+                <input type="text" id="title" name="title" placeholder="添加ToDo" required="required" autocomplete="off" class="inputValue">
+        </section>
+    </header>
+    <section>
+        <div class="mainBox">
+        <h2>正在进行 <span id="todocount">0</span></h2>
+        <ol id="todolist" class="demo-box"></ol>
+        <h2>已经完成 <span id="donecount">0</span></h2>
+        <ul id="donelist"></ul>
+    </div>
+    </section>
+
+</body>
+<script src="../js/todoList.js"></script>
+</html>
